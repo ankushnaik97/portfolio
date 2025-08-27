@@ -1,0 +1,153 @@
+.left-panel {
+  width: 35%;
+  padding: 30px;
+  background-color: #1a1a1a;
+  overflow-y: auto;
+}
+
+.profile-section h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: #50fa7b;
+}
+
+.profile-section h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #bd93f9;
+}
+
+.contact-info {
+  margin-bottom: 25px;
+}
+
+.contact-info p {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.social-links a {
+  color: #8be9fd;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #50fa7b;
+}
+
+.objective-section {
+  margin-bottom: 25px;
+}
+
+.objective-section h3 {
+  color: #ff79c6;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.objective-section p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.skills-section {
+  margin-bottom: 25px;
+}
+
+.skills-section h3 {
+  color: #ff79c6;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.skills-category {
+  margin-bottom: 15px;
+}
+
+.skills-category h4 {
+  color: #f1fa8c;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tags span {
+  background-color: #282a36;
+  color: #f8f8f2;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.certifications-section {
+  margin-bottom: 20px;
+}
+
+.certifications-section h3 {
+  color: #ff79c6;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.certifications-section ul {
+  list-style-type: none;
+}
+
+.certifications-section li {
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.certifications-section li:before {
+  content: "■";
+  color: #50fa7b;
+  position: absolute;
+  left: 0;
+}
+
+.language-section h3 {
+  color: #ff79c6;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+/* Scrollbar Styles */
+.left-panel::-webkit-scrollbar {
+  width: 6px;
+}
+
+.left-panel::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+.left-panel::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 3px;
+}
+
+.left-panel::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

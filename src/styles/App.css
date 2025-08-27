@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #0a0a0a;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.portfolio-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  height: 90vh;
+  background-color: #121212;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .portfolio-container {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .left-panel, .right-panel {
+    width: 100%;
+  }
+  
+  .right-panel {
+    height: 500px;
+  }
+}
